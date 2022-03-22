@@ -2,5 +2,5 @@
 Simple Todo List created using vanilla JavaScript.
 
 `Saves to localStorage` <br>
-`Option to delete list items`
+`Option to delete list items` <br>
 `Created in 1 hour :)`
