@@ -61,7 +61,7 @@ body {
     background-color: #e3e3e3;
     padding: 0;
     padding-left: 10px;
-    color: #ff7f31;
+    color: rgb(41, 41, 41);
 }
 
 .app-submit {
@@ -96,7 +96,6 @@ body {
     align-items: center;
     font-size: 13px;
     font-weight: 600;
-    /* min-height: 40px; */
     padding: 10px 15px 10px 15px;
 }
 
@@ -105,7 +104,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 40px; */
     cursor: pointer;
     font-weight: 800;
     transition: color 0.25s;
