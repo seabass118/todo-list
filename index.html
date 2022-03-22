@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Meta/favicon-16x16.png">
+    <link rel="manifest" href="/Meta/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="app-inner">
+            <div class="app-title">
+                Todo List App
+            </div>
+            <div class="app-list">
+                <div class="app-placeholder">
+                    Nothing to show. Add a task below.
+                </div>
+            </div>
+            <form class="app-form" name="app-form" onsubmit="return false">
+                <input class="app-input" type="text" placeholder="Add task...">
+                <input class="app-submit" type="submit" value="Add">
+            </form>
+            <div class="app-credits">By Seb Blackley</div>
+        </div>
+    </div>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>
